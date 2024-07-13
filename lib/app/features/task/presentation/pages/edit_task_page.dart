@@ -148,7 +148,7 @@ class _EditTaskPageState extends State<EditTaskPage> {
                       child: Row(
                         children: [
                           Icon(
-                            Icons.alarm,
+                            Icons.date_range_outlined,
                             color: AppColors.primary,
                             size: 24.sp,
                           ),

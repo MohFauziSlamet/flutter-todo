@@ -35,6 +35,11 @@ class _DialogContentCreateTodoWidgetState extends State<DialogContentCreateTodoW
         MainTextFormFieldWidget(
           controller: _titleTaskController,
           hintText: 'Please input your title todo here...',
+          style: TextStyle(
+            fontSize: 12.sp,
+            fontWeight: FontWeight.w400,
+            color: AppColors.gray100,
+          ),
           border: OutlineInputBorder(
             borderSide: const BorderSide(
               color: AppColors.primary,
