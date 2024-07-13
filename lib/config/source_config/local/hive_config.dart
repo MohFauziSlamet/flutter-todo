@@ -1,4 +1,6 @@
-
+/// HiveConfig adalah sebuah kelas abstrak yang mendefinisikan interface
+/// untuk berinteraksi dengan penyimpanan data menggunakan Hive.
+/// class ini menyediakan beberapa metode abstrak yang harus diimplementasikan oleh class turunan.
 abstract class HiveConfig {
   Future<void> set<T>({required String key, required T data});
 
